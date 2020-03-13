@@ -1,8 +1,10 @@
 package com.example.starter;
 
+import io.vertx.core.DeploymentOptions;
 import io.vertx.core.Vertx;
 import io.vertx.core.buffer.Buffer;
 import io.vertx.core.http.HttpClientRequest;
+import io.vertx.core.json.JsonObject;
 import io.vertx.ext.web.client.HttpResponse;
 import io.vertx.ext.web.client.WebClient;
 import io.vertx.junit5.VertxExtension;
@@ -14,6 +16,11 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 
+import java.io.FileReader;
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -22,10 +29,19 @@ import static org.junit.jupiter.api.Assertions.fail;
 
 @ExtendWith(VertxExtension.class)
 public class TestMainVerticle {
+	static DeploymentOptions options;
 
 	@BeforeAll
 	static void deploy_verticle(Vertx vertx, VertxTestContext testContext) {
-		vertx.deployVerticle(new MainVerticle(), testContext.succeeding(id -> testContext.completeNow()));
+		try {
+			options = new DeploymentOptions().setConfig(
+					new JsonObject(new String(Files.readAllBytes(Paths.get("src/main/conf/starter-conf.json")))));
+			vertx.deployVerticle(new MainVerticle(), options, testContext.succeeding(id -> testContext.completeNow()));
+		} catch (IOException e) {
+			testContext.failNow(new Exception("Unable to read config"));
+			testContext.completeNow();
+			e.printStackTrace();
+		}
 	}
 
 	@AfterAll
@@ -42,15 +58,16 @@ public class TestMainVerticle {
 	public void testMyApplication(Vertx vertx, VertxTestContext testContext) {
 
 		WebClient client = WebClient.create(vertx);
-		client.get(8888, "localhost", "/").send(ar -> {
+		client.get(options.getConfig().getInteger("http.port"), "localhost", "/").send(ar -> {
 			if (ar.succeeded()) {
 				HttpResponse<Buffer> response = ar.result();
 				if (response.statusCode() != 200) {
 					testContext.failNow(null);
 				}
-				String expected = "Hello from Vert.x!";
+				String expected = "<h1>Hello from Vert.x!</h1>";
 				if (!response.bodyAsString().equals(expected)) {
-					testContext.failNow(new Exception("bad body received [" + response.bodyAsString() + "] instead of [" + expected + "]"));
+					testContext.failNow(new Exception(
+							"bad body received [" + response.bodyAsString() + "] instead of [" + expected + "]"));
 				}
 			} else {
 				testContext.failNow(null);
