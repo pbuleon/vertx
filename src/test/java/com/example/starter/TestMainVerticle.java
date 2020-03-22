@@ -4,6 +4,7 @@ import io.vertx.core.DeploymentOptions;
 import io.vertx.core.Vertx;
 import io.vertx.core.buffer.Buffer;
 import io.vertx.core.http.HttpClientRequest;
+import io.vertx.core.json.Json;
 import io.vertx.core.json.JsonObject;
 import io.vertx.ext.web.client.HttpResponse;
 import io.vertx.ext.web.client.WebClient;
@@ -74,5 +75,47 @@ public class TestMainVerticle {
 			}
 			testContext.completeNow();
 		});
+	}
+
+	@Test
+	public void testIndexPage(Vertx vertx, VertxTestContext testContext) {
+
+		WebClient client = WebClient.create(vertx);
+		client.get(options.getConfig().getInteger("http.port"), "localhost", "/assets/index.html").send(ar -> {
+			if (ar.succeeded()) {
+				HttpResponse<Buffer> response = ar.result();
+				testContext.verify(()->{
+					assertEquals(200,response.statusCode());
+					assertTrue(response.headers().get("content-type").contains("text/html"));
+					assertTrue(response.bodyAsBuffer().getString(0, 8000).contains("<title>My Whisky Collection</title>"));
+				});
+			} else {
+				testContext.failNow(null);
+			}
+			testContext.completeNow();
+		});
+	}
+
+	@Test
+	public void testAddWhiky(Vertx vertx, VertxTestContext testContext) {
+
+		Whisky newBottle = new Whisky("Jameson", "Ireland");
+		WebClient client = WebClient.create(vertx);
+		client.post(options.getConfig().getInteger("http.port"), "localhost", "/api/whiskies").sendJson(newBottle,
+				ar -> {
+					if (ar.succeeded()) {
+						HttpResponse<Buffer> response = ar.result();
+						testContext.verify(() -> {
+							assertEquals(201, response.statusCode());
+							assertTrue(response.headers().get("content-type").contains("application/json"));
+							Whisky whiskyRep = response.bodyAsJson(Whisky.class);
+							assertEquals(newBottle.getName(), whiskyRep.getName());
+							assertEquals(newBottle.getOrigin(), whiskyRep.getOrigin());
+						});
+					} else {
+						testContext.failNow(new Exception("Request failed"));
+					}
+					testContext.completeNow();
+				});
 	}
 }
