@@ -29,8 +29,8 @@ public class MainVerticle extends AbstractVerticle {
 	@Override
 	public void start(Promise<Void> startPromise) throws Exception {
 
-		createSomeData();
 
+		
 		int port = config().getInteger("http.port", 8888);
 		// Create a router object.
 		Router router = Router.router(vertx);
