@@ -1,0 +1,2 @@
+'1yNFGsoj92eMn.QZMQa0MdBRHuTfk8hs7KQzdoyixw1._X30bWZOU3SX4LBLssAAEW3rv_E59.J3fqPXI9CJ68gqox62fBqv3_MYv_ZEPuF._ET43BYerk' 'token' STORE // init token avec le token
+[ $token 'test' {} NOW -10 ] FETCH // fetche les 10 dernier enregistrement de  'test'
