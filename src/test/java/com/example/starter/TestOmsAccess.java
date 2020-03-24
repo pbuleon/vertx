@@ -45,17 +45,29 @@ public class TestOmsAccess {
 		vertx.close(testContext.succeeding(id -> testContext.completeNow()));
 	}
 	
+//	@Test
+//	public void testInitCountry(Vertx vertx, VertxTestContext testContext) {
+//		OmsAccess omsAccess = OmsAccess.getInstance();
+//		
+//		Future<Void> fut = omsAccess.downloadCountries(vertx);
+//		fut.setHandler(ar -> {
+//			testContext.assertComplete(fut);
+//			testContext.completeNow();
+//		});
+//
+//	}
+
 	@Test
-	public void testInitCountry(Vertx vertx, VertxTestContext testContext) {
+	public void testLoadAll(Vertx vertx, VertxTestContext testContext) {
 		OmsAccess omsAccess = OmsAccess.getInstance();
 		
-		Future<Void> fut = omsAccess.initCountry(vertx);
+		Future<Void> fut = omsAccess.downloadall(vertx);
 		fut.setHandler(ar -> {
 			testContext.assertComplete(fut);
-			testContext.verify(()->{assertNotEquals(0, omsAccess.getCountryNames().size());});
 			testContext.completeNow();
 		});
 
 	}
+
 
 }

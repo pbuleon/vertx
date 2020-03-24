@@ -4,6 +4,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 import io.vertx.core.AbstractVerticle;
+import io.vertx.core.Future;
 import io.vertx.core.Promise;
 import io.vertx.core.http.HttpServerResponse;
 import io.vertx.core.json.Json;
@@ -17,6 +18,8 @@ public class MainVerticle extends AbstractVerticle {
 
 	// Store our product
 	private Map<Integer, Whisky> products = new LinkedHashMap<>();
+	
+	OmsAccess oms = OmsAccess.getInstance();
 
 	// Create some product
 	private void createSomeData() {
@@ -29,28 +32,29 @@ public class MainVerticle extends AbstractVerticle {
 	@Override
 	public void start(Promise<Void> startPromise) throws Exception {
 
-
 		
 		int port = config().getInteger("http.port", 8888);
 		// Create a router object.
 		Router router = Router.router(vertx);
+		
+		router.get("/data/oms/download").handler(this::dowloadOmsData);
 
-		// Bind "/" to our hello message - so we are still compatible.
-		router.route("/").handler(routingContext -> {
-			HttpServerResponse response = routingContext.response();
-			response.putHeader("content-type", "text/html").end("<h1>Hello from Vert.x!</h1>");
-		});
-
-		// Serve static resources from the /assets directory
-		router.route("/assets/*").handler(StaticHandler.create("assets"));
-
-		router.get("/api/whiskies").handler(this::getAll);
-
-		router.route("/api/whiskies*").handler(BodyHandler.create()); // pour lire le body
-		router.post("/api/whiskies").handler(this::addOne);
-		router.delete("/api/whiskies/:id").handler(this::deleteOne);
-		router.put("/api/whiskies/:id").handler(this::updateOne);
-	    router.get("/api/whiskies/:id").handler(this::getOne);
+//		// Bind "/" to our hello message - so we are still compatible.
+//		router.route("/").handler(routingContext -> {
+//			HttpServerResponse response = routingContext.response();
+//			response.putHeader("content-type", "text/html").end("<h1>Hello from Vert.x!</h1>");
+//		});
+//
+//		// Serve static resources from the /assets directory
+//		router.route("/assets/*").handler(StaticHandler.create("assets"));
+//
+//		router.get("/api/whiskies").handler(this::getAll);
+//
+//		router.route("/api/whiskies*").handler(BodyHandler.create()); // pour lire le body
+//		router.post("/api/whiskies").handler(this::addOne);
+//		router.delete("/api/whiskies/:id").handler(this::deleteOne);
+//		router.put("/api/whiskies/:id").handler(this::updateOne);
+//	    router.get("/api/whiskies/:id").handler(this::getOne);
 
 
 		// Create the HTTP server and pass the "accept" method to the request handler.
@@ -68,9 +72,18 @@ public class MainVerticle extends AbstractVerticle {
 
 	}
 
-	private void getAll(RoutingContext routingContext) {
-		routingContext.response().putHeader("content-type", "application/json; charset=utf-8")
-				.end(Json.encodePrettily(products.values()));
+	private void dowloadOmsData(RoutingContext routingContext) {
+		Future<Void> fut = oms.downloadall(vertx);
+		
+		fut.setHandler(ar -> {
+			if (ar.succeeded()) {
+				routingContext.response().setStatusCode(200).putHeader("content-type", "application/json; charset=utf-8")
+				.end(Json.encodePrettily(oms.countryNames));
+			}else {
+				routingContext.response().setStatusCode(500).end();
+			}
+		});
+		
 	}
 
 	private void addOne(RoutingContext routingContext) {
