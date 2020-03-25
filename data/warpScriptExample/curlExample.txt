@@ -1,0 +1,2 @@
+delete toutes les entry de class oms.cum_conf
+curl -H 'X-Warp10-Token:iAIdWhOgsxRDTa2ahek9.zkHzhzI8PRSuQ8OmhbtTL50DjDrNFucPoqy62noC9IvADlGSOlBXZkRKxqm2NeTkZ0xJLLkXt8z_yrocXDySx7' 'http://127.0.0.1:8080/api/v0/delete?deleteall&selector=oms.cum_conf\{\}'

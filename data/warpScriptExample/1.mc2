@@ -1,2 +1,12 @@
 '1yNFGsoj92eMn.QZMQa0MdBRHuTfk8hs7KQzdoyixw1._X30bWZOU3SX4LBLssAAEW3rv_E59.J3fqPXI9CJ68gqox62fBqv3_MYv_ZEPuF._ET43BYerk' 'token' STORE // init token avec le token
-[ $token 'test' {} NOW -10 ] FETCH // fetche les 10 dernier enregistrement de  'test'
+[ $token 'oms.cum_conf' { 'country' '~.*Fr.*' } NOW -1000 ] FETCH // fetch les 1000 dernier enregistrement de class 'oms.cum_conf' avec un label country contenant Fr
+
+// recupere les 1000 derniere entry de class oms.cum_conf avec label 'country' = 'France'
+'cR_C33wtPjBGpNS8b9QxAJnvO2uTUg.QUc0Vdy6GxwHxIzaVVWAN4Qik0h9cKAbIOUo4PDIx_ppHuCmrOrBdIfH0dSJJ3Sh0xWTU6xuAq5dbCl8vUrv1cG.r332aNAfzKJo6WysbIKF' 'token' STORE
+[ $token 'oms.cum_conf' { 'country' 'France' } NOW -1000 ] FETCH // fetch les 1000 dernier enregistrement de class 'oms.cum_conf' avec un label country egal a France
+
+
+// fetch les 10000 valeurs pour la france et la chine
+'cR_C33wtPjBGpNS8b9QxAJnvO2uTUg.QUc0Vdy6GxwHxIzaVVWAN4Qik0h9cKAbIOUo4PDIx_ppHuCmrOrBdIfH0dSJJ3Sh0xWTU6xuAq5dbCl8vUrv1cG.r332aNAfzKJo6WysbIKF' 'token' STORE
+[ $token 'oms.cum_conf' { 'country' 'France' } NOW -10000 ] FETCH
+[ $token 'oms.cum_conf' { 'country' 'China' } NOW -10000 ] FETCH

@@ -1,5 +1,7 @@
 package com.example.starter;
 
+import com.example.starter.warp10.Warp10Client;
+import com.example.starter.warp10.Warp10Token;
 import com.jayway.restassured.RestAssured;
 
 import io.vertx.core.DeploymentOptions;
@@ -14,6 +16,7 @@ import io.vertx.junit5.VertxTestContext;
 
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -61,11 +64,20 @@ public class TestOmsAccess {
 	public void testLoadAll(Vertx vertx, VertxTestContext testContext) {
 		OmsAccess omsAccess = OmsAccess.getInstance();
 		
-		Future<Void> fut = omsAccess.downloadall(vertx);
-		fut.setHandler(ar -> {
-			testContext.assertComplete(fut);
+		try {
+			Future<Void> fut = omsAccess.loadDataToWarp10(vertx,"France");
+			fut.setHandler(ar->{
+				if(ar.failed()) {
+					testContext.failNow(ar.cause());
+					testContext.completeNow();
+				}
+			});
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			testContext.failNow(e);
 			testContext.completeNow();
-		});
+		}
 
 	}
 
