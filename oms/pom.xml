@@ -22,7 +22,7 @@
 		<vertx.version>3.8.5</vertx.version>
 		<junit-jupiter.version>5.4.0</junit-jupiter.version>
 
-		<main.verticle>com.example.starter.MainVerticle</main.verticle>
+		<main.verticle>oms.MainVerticle</main.verticle>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
@@ -88,6 +88,11 @@
 			<artifactId>assertj-core</artifactId>
 			<version>2.0.0</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>warp10</groupId>
+			<artifactId>client</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 

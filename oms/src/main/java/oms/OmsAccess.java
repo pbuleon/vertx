@@ -22,7 +22,7 @@ import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;
 import io.vertx.ext.web.client.HttpResponse;
 import io.vertx.ext.web.client.WebClient;
-import oms.warp10.Warp10Client;
+import warp10.client.Warp10Client;
 
 public class OmsAccess {
 
@@ -201,10 +201,9 @@ public class OmsAccess {
 	}
 
 	/**
-	 * return gts data for a country 1582502400000/2.55042646:46.56487403/
-	 * oms.cum_conf{country=France} 12475 1582502400000/2.55042646:46.56487403/
-	 * oms.NewCase{country=France} 1598
-	 * 
+	 * return gts data for a country 
+	 * 1582502400000/2.55042646:46.56487403/ oms.cum_conf{country=France} 12475 
+	 * 1582502400000/2.55042646:46.56487403/ oms.NewCase{country=France} 1598
 	 * @param countryName
 	 * @return
 	 * @throws FileNotFoundException

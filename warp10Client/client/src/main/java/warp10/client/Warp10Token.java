@@ -1,4 +1,4 @@
-package oms.warp10;
+package warp10.client;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;

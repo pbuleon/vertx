@@ -1,4 +1,4 @@
-package oms.warp10;
+package warp10.client;
 
 import java.io.IOException;
 import io.vertx.core.Future;

@@ -1,0 +1,35 @@
+'googleLocation' 'applicationName' STORE
+'2101-10-01T00:00:00.000000Z' TOTIMESTAMP 1 ms / 'expirydate' STORE
+
+UUID 'owner' STORE
+
+{
+  'READ'
+  {
+    'id' 'tokenR'  // for bookkeeping purposes
+    'type' 'READ'       // or 'WRITE'
+    'application' $applicationName // Name of applications for this token
+    'owner'  $owner     // UUID of the data owner for WRITE tokens or the billed user for READ tokens
+    'issuance' NOW  1 ms /    // Time of token issuance
+    'expiry' $expirydate // Time of token expiry
+    'labels' {}         // Map of token labels
+    'attributes' {}     // Map of token attributes
+    // The following are only for READ tokens, can be omitted, the token is then considered a WildCard token.
+    'owners' [  $owner ]
+    'producers' [ $owner ]
+    'applications' [ $applicationName ]
+  } TOKENGEN
+
+  'WRITE'
+  {
+    'id' 'tokenW'  // for bookkeeping purposes
+    'type' 'WRITE'       // or 'WRITE'
+    'application' $applicationName // Name of applications for this token
+    'owner'  $owner     // UUID of the data owner for WRITE tokens or the billed user for READ tokens
+    'producer' $owner  //owner = producer to be able to delete data.
+    'issuance' NOW   1 ms /     // Time of token issuance
+    'expiry' $expirydate // Time of token expiry
+    'labels' {}         // Map of token labels
+    'attributes' {}     // Map of token attributes
+  } TOKENGEN
+}
