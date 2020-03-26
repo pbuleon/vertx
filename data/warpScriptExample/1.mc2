@@ -10,3 +10,9 @@
 'cR_C33wtPjBGpNS8b9QxAJnvO2uTUg.QUc0Vdy6GxwHxIzaVVWAN4Qik0h9cKAbIOUo4PDIx_ppHuCmrOrBdIfH0dSJJ3Sh0xWTU6xuAq5dbCl8vUrv1cG.r332aNAfzKJo6WysbIKF' 'token' STORE
 [ $token 'oms.cum_conf' { 'country' 'France' } NOW -10000 ] FETCH
 [ $token 'oms.cum_conf' { 'country' 'China' } NOW -10000 ] FETCH
+
+
+
+// les entry du 1 janvier 2020 au 1 Janvier 2021
+'cR_C33wtPjBGpNS8b9QxAJnvO2uTUg.QUc0Vdy6GxwHxIzaVVWAN4Qik0h9cKAbIOUo4PDIx_ppHuCmrOrBdIfH0dSJJ3Sh0xWTU6xuAq5dbCl8vUrv1cG.r332aNAfzKJo6WysbIKF' 'token' STORE
+[ $token 'oms.NewCase' { 'country' 'France' } '2021-01-01T00:00:00Z' '2020-01-01T00:00:00Z' ] FETCH

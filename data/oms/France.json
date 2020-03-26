@@ -1,1 +1,1527 @@
-{"objectIdFieldName":"OBJECTID","uniqueIdField":{"name":"OBJECTID","isSystemMaintained":true},"globalIdFieldName":"GlobalID","geometryType":"esriGeometryPoint","spatialReference":{"wkid":4326,"latestWkid":4326},"fields":[{"name":"OBJECTID","type":"esriFieldTypeOID","alias":"OBJECTID","sqlType":"sqlTypeOther","domain":null,"defaultValue":null},{"name":"ADM0_NAME","type":"esriFieldTypeString","alias":"ADM0_NAME","sqlType":"sqlTypeOther","length":255,"domain":null,"defaultValue":null},{"name":"DateOfDataEntry","type":"esriFieldTypeDate","alias":"DateOfDataEntry","sqlType":"sqlTypeOther","length":8,"domain":null,"defaultValue":null},{"name":"cum_conf","type":"esriFieldTypeInteger","alias":"cum_conf","sqlType":"sqlTypeOther","domain":null,"defaultValue":null},{"name":"NewCase","type":"esriFieldTypeInteger","alias":"NewCase","sqlType":"sqlTypeOther","domain":null,"defaultValue":null},{"name":"CENTER_LON","type":"esriFieldTypeDouble","alias":"CENTER_LON","sqlType":"sqlTypeOther","domain":null,"defaultValue":null},{"name":"CENTER_LAT","type":"esriFieldTypeDouble","alias":"CENTER_LAT","sqlType":"sqlTypeOther","domain":null,"defaultValue":null},{"name":"ADM0_VIZ_NAME","type":"esriFieldTypeString","alias":"ADM0_VIZ_NAME","sqlType":"sqlTypeOther","length":255,"domain":null,"defaultValue":null},{"name":"GUID","type":"esriFieldTypeGUID","alias":"GUID","sqlType":"sqlTypeOther","length":38,"domain":null,"defaultValue":null},{"name":"Short_Name_ZH","type":"esriFieldTypeString","alias":"Short_Name_ZH","sqlType":"sqlTypeOther","length":255,"domain":null,"defaultValue":null},{"name":"Short_Name_FR","type":"esriFieldTypeString","alias":"Short_Name_FR","sqlType":"sqlTypeOther","length":255,"domain":null,"defaultValue":null},{"name":"Short_Name_ES","type":"esriFieldTypeString","alias":"Short_Name_ES","sqlType":"sqlTypeOther","length":255,"domain":null,"defaultValue":null},{"name":"Short_Name_RU","type":"esriFieldTypeString","alias":"Short_Name_RU","sqlType":"sqlTypeOther","length":255,"domain":null,"defaultValue":null},{"name":"Short_Name_AR","type":"esriFieldTypeString","alias":"Short_Name_AR","sqlType":"sqlTypeOther","length":255,"domain":null,"defaultValue":null},{"name":"GlobalID","type":"esriFieldTypeGlobalID","alias":"GlobalID","sqlType":"sqlTypeOther","length":38,"domain":null,"defaultValue":null}],"features":[{"attributes":{"OBJECTID":1229,"ADM0_NAME":"FRANCE","DateOfDataEntry":1579910400000,"cum_conf":3,"NewCase":3,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"d3fa2afa-7a05-419e-9b4d-d5b403fe5601"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1230,"ADM0_NAME":"FRANCE","DateOfDataEntry":1579996800000,"cum_conf":3,"NewCase":0,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"2bda21b2-b2f1-4c73-9cdb-62795c505682"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1231,"ADM0_NAME":"FRANCE","DateOfDataEntry":1580083200000,"cum_conf":3,"NewCase":0,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"5ca8d35b-f523-4258-89fa-0cb5b91cd70d"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1232,"ADM0_NAME":"FRANCE","DateOfDataEntry":1580169600000,"cum_conf":3,"NewCase":0,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"8e2f7f11-cde2-45db-98f2-123d6ee360f1"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1233,"ADM0_NAME":"FRANCE","DateOfDataEntry":1580256000000,"cum_conf":4,"NewCase":1,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"8a4bf1aa-0dca-4841-a5cd-76c1bf06646d"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1234,"ADM0_NAME":"FRANCE","DateOfDataEntry":1580342400000,"cum_conf":5,"NewCase":1,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"86e594e7-7882-4d2e-a551-2a9403a64329"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1235,"ADM0_NAME":"FRANCE","DateOfDataEntry":1580428800000,"cum_conf":6,"NewCase":1,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"c4c46433-a6b0-40d9-8623-b48f35aa1363"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1236,"ADM0_NAME":"FRANCE","DateOfDataEntry":1580515200000,"cum_conf":6,"NewCase":0,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"629aa97f-b2df-4aba-8205-cc2927d0d049"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1237,"ADM0_NAME":"FRANCE","DateOfDataEntry":1580601600000,"cum_conf":6,"NewCase":0,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"0309b2b7-caad-4dca-98c7-e8fa8f16d14d"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1238,"ADM0_NAME":"FRANCE","DateOfDataEntry":1580688000000,"cum_conf":6,"NewCase":0,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"ffdca9cc-7750-42b4-bba0-5dfe4716fdd0"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1239,"ADM0_NAME":"FRANCE","DateOfDataEntry":1580774400000,"cum_conf":6,"NewCase":0,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"feaebdc8-20fc-4062-b653-15a5ab56d616"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1240,"ADM0_NAME":"FRANCE","DateOfDataEntry":1580860800000,"cum_conf":6,"NewCase":0,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"09c99387-e1fd-4cbe-89cb-09f563e09832"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1241,"ADM0_NAME":"FRANCE","DateOfDataEntry":1580947200000,"cum_conf":6,"NewCase":0,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"04d16bc0-f440-4eb6-9834-5bdb74b0dde0"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1242,"ADM0_NAME":"FRANCE","DateOfDataEntry":1581033600000,"cum_conf":6,"NewCase":0,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"49be30da-f080-474a-b88b-f0b553b97e71"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1243,"ADM0_NAME":"FRANCE","DateOfDataEntry":1581120000000,"cum_conf":11,"NewCase":5,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"d589357a-f25e-4a91-8f05-c59f23bf6e3a"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1244,"ADM0_NAME":"FRANCE","DateOfDataEntry":1581206400000,"cum_conf":11,"NewCase":0,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"b70fc925-f8fe-4f2b-92b8-2f696370ced7"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1245,"ADM0_NAME":"FRANCE","DateOfDataEntry":1581292800000,"cum_conf":11,"NewCase":0,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"0865c500-8ffd-49c2-b372-104217c3fcae"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1246,"ADM0_NAME":"FRANCE","DateOfDataEntry":1581379200000,"cum_conf":11,"NewCase":0,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"83bd51dc-ddca-44cb-ba39-e7fdc5b97d53"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1247,"ADM0_NAME":"FRANCE","DateOfDataEntry":1581465600000,"cum_conf":11,"NewCase":0,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"38475e73-8110-4b56-b72f-1e06c752ff6b"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1248,"ADM0_NAME":"FRANCE","DateOfDataEntry":1581552000000,"cum_conf":11,"NewCase":0,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"90af8261-782c-496d-8b74-6db21a846682"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1249,"ADM0_NAME":"FRANCE","DateOfDataEntry":1581638400000,"cum_conf":11,"NewCase":0,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"dab5e643-8b46-4923-b2ec-19244217d830"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1250,"ADM0_NAME":"FRANCE","DateOfDataEntry":1581724800000,"cum_conf":11,"NewCase":0,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"b8ee292f-2dce-4ef4-87ce-d6aee7fdafb4"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1251,"ADM0_NAME":"FRANCE","DateOfDataEntry":1581811200000,"cum_conf":12,"NewCase":1,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"aa5e0b18-56e2-44b8-91b8-066d6fb38c8c"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1252,"ADM0_NAME":"FRANCE","DateOfDataEntry":1581897600000,"cum_conf":12,"NewCase":0,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"75ab6306-38ba-424d-be7e-0e32f1aff4ad"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1253,"ADM0_NAME":"FRANCE","DateOfDataEntry":1581984000000,"cum_conf":12,"NewCase":0,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"20a53ed0-e102-4955-9e8d-4abba3a5315f"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1254,"ADM0_NAME":"FRANCE","DateOfDataEntry":1582070400000,"cum_conf":12,"NewCase":0,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"946c99f0-0a04-44e6-bd77-3c51884a7b77"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1255,"ADM0_NAME":"FRANCE","DateOfDataEntry":1582156800000,"cum_conf":12,"NewCase":0,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"ad71699c-701e-4e84-b8ff-84301463682b"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1256,"ADM0_NAME":"FRANCE","DateOfDataEntry":1582243200000,"cum_conf":12,"NewCase":0,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"44e60b23-7117-4de3-8ce7-4f1b0b65fe83"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1257,"ADM0_NAME":"FRANCE","DateOfDataEntry":1582329600000,"cum_conf":12,"NewCase":0,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"4719e37b-46fe-4f88-8bcc-2024e368809d"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1258,"ADM0_NAME":"FRANCE","DateOfDataEntry":1582416000000,"cum_conf":12,"NewCase":0,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"ef362bbc-e883-4959-9cec-566ded712f0a"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1259,"ADM0_NAME":"FRANCE","DateOfDataEntry":1582502400000,"cum_conf":12,"NewCase":0,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"7605965f-f59e-4123-9934-d78ccb07f9eb"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1260,"ADM0_NAME":"FRANCE","DateOfDataEntry":1582588800000,"cum_conf":12,"NewCase":0,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"db807f02-f861-49ad-9242-b4a6948d7961"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1261,"ADM0_NAME":"FRANCE","DateOfDataEntry":1582675200000,"cum_conf":17,"NewCase":5,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"3cf497a9-5ee3-42ec-bc90-c71d112ef851"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1262,"ADM0_NAME":"FRANCE","DateOfDataEntry":1582761600000,"cum_conf":18,"NewCase":1,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"fcd95356-9cc2-4d58-a2f5-550d5a19f141"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1263,"ADM0_NAME":"FRANCE","DateOfDataEntry":1582848000000,"cum_conf":38,"NewCase":20,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"6af9f801-fde8-4fea-ab01-547f77e6a62f"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1264,"ADM0_NAME":"FRANCE","DateOfDataEntry":1582934400000,"cum_conf":57,"NewCase":19,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"3d9b02aa-fb4f-42cf-bda8-ff45232048f3"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1265,"ADM0_NAME":"FRANCE","DateOfDataEntry":1583020800000,"cum_conf":100,"NewCase":43,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"2cd23d97-2a78-453f-903d-1fc32be073f3"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1266,"ADM0_NAME":"FRANCE","DateOfDataEntry":1583107200000,"cum_conf":100,"NewCase":0,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"0fafb4ed-408a-4bc8-88e0-d2edd236fb58"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1267,"ADM0_NAME":"FRANCE","DateOfDataEntry":1583193600000,"cum_conf":191,"NewCase":91,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"2d18698e-6fba-4bb8-8a5c-ac437d6ab682"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1268,"ADM0_NAME":"FRANCE","DateOfDataEntry":1583280000000,"cum_conf":212,"NewCase":21,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"9739fc0c-6833-4147-b15a-9287db73eca4"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1269,"ADM0_NAME":"FRANCE","DateOfDataEntry":1583366400000,"cum_conf":282,"NewCase":70,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"c9888b85-310d-4f90-8643-5929e854b69f"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1270,"ADM0_NAME":"FRANCE","DateOfDataEntry":1583452800000,"cum_conf":420,"NewCase":138,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"9f0a3047-b182-49f8-9f3f-18066cf30216"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1271,"ADM0_NAME":"FRANCE","DateOfDataEntry":1583539200000,"cum_conf":613,"NewCase":193,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"ff9a6017-4dae-4c81-8ad6-548306f4f7c5"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1272,"ADM0_NAME":"FRANCE","DateOfDataEntry":1583625600000,"cum_conf":939,"NewCase":326,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"0720e2b9-a000-43b2-872f-579e4bfd0a30"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1273,"ADM0_NAME":"FRANCE","DateOfDataEntry":1583712000000,"cum_conf":1116,"NewCase":177,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"9a91794f-9391-4b4f-ad0e-d9363c95b252"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1274,"ADM0_NAME":"FRANCE","DateOfDataEntry":1583798400000,"cum_conf":1402,"NewCase":286,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"06210cb7-ed2d-4e01-b135-25937492be62"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1275,"ADM0_NAME":"FRANCE","DateOfDataEntry":1583884800000,"cum_conf":1774,"NewCase":372,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"0bb99abd-6431-4329-97f8-b12f5aadea2f"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1276,"ADM0_NAME":"FRANCE","DateOfDataEntry":1583971200000,"cum_conf":2281,"NewCase":507,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"c5214421-414d-49f6-90cc-758ea1ca07f6"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1277,"ADM0_NAME":"FRANCE","DateOfDataEntry":1584057600000,"cum_conf":2860,"NewCase":579,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"60d70b4d-3415-45e8-a21b-d59b96f15764"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1278,"ADM0_NAME":"FRANCE","DateOfDataEntry":1584144000000,"cum_conf":3640,"NewCase":780,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"e566ee6b-1264-4fb5-8e6c-a5b964348100"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1279,"ADM0_NAME":"FRANCE","DateOfDataEntry":1584230400000,"cum_conf":4469,"NewCase":829,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"52fd3721-2d33-4950-a2f4-ea7aeccf2459"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1280,"ADM0_NAME":"France","DateOfDataEntry":1584316800000,"cum_conf":5380,"NewCase":911,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"af5dea2f-bed3-4e43-a6b1-40849fb6ba7c"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1281,"ADM0_NAME":"France","DateOfDataEntry":1584403200000,"cum_conf":6573,"NewCase":1193,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"ba79f8a6-e110-4000-b49b-27247805a2db"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1282,"ADM0_NAME":"France","DateOfDataEntry":1584489600000,"cum_conf":7652,"NewCase":1079,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"5a8ed07d-6de6-4a0d-b010-3535edcca8b7"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1283,"ADM0_NAME":"France","DateOfDataEntry":1584576000000,"cum_conf":9043,"NewCase":1391,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"7177b97f-d1d0-44aa-902a-30ad443b2eaa"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1284,"ADM0_NAME":"France","DateOfDataEntry":1584662400000,"cum_conf":10877,"NewCase":1834,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"0cf10e75-46e4-42a2-a3b6-91d7a3176240"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1285,"ADM0_NAME":"France","DateOfDataEntry":1584748800000,"cum_conf":12475,"NewCase":1598,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"66453016-485f-4681-b2d7-5ea0e9d95e39"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1286,"ADM0_NAME":"France","DateOfDataEntry":1584835200000,"cum_conf":14296,"NewCase":1821,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"0faa5757-791f-4e81-a356-7b3c1d854750"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1287,"ADM0_NAME":"France","DateOfDataEntry":1584921600000,"cum_conf":15821,"NewCase":1525,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"ab6c6781-595d-4cdd-8336-ad3d783bd836"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}},{"attributes":{"OBJECTID":1288,"ADM0_NAME":"France","DateOfDataEntry":1585008000000,"cum_conf":19615,"NewCase":3794,"CENTER_LON":2.55042646,"CENTER_LAT":46.56487403,"ADM0_VIZ_NAME":"France","GUID":"4c308a42-4e33-4d8f-a408-0746862545c7","Short_Name_ZH":"法国","Short_Name_FR":"France","Short_Name_ES":"Francia","Short_Name_RU":"Франция","Short_Name_AR":"فرنسا","GlobalID":"23c60029-d2a2-4ef0-a6f7-edcd9be9ddbf"},"geometry":{"x":2.5504264560000252,"y":46.564874025000051}}]}
+{
+	"objectIdFieldName": "OBJECTID",
+	"uniqueIdField": {
+		"name": "OBJECTID",
+		"isSystemMaintained": true
+	},
+	"globalIdFieldName": "GlobalID",
+	"geometryType": "esriGeometryPoint",
+	"spatialReference": {
+		"wkid": 4326,
+		"latestWkid": 4326
+	},
+	"fields": [
+		{
+			"name": "OBJECTID",
+			"type": "esriFieldTypeOID",
+			"alias": "OBJECTID",
+			"sqlType": "sqlTypeOther",
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "ADM0_NAME",
+			"type": "esriFieldTypeString",
+			"alias": "ADM0_NAME",
+			"sqlType": "sqlTypeOther",
+			"length": 255,
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "DateOfDataEntry",
+			"type": "esriFieldTypeDate",
+			"alias": "DateOfDataEntry",
+			"sqlType": "sqlTypeOther",
+			"length": 8,
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "cum_conf",
+			"type": "esriFieldTypeInteger",
+			"alias": "cum_conf",
+			"sqlType": "sqlTypeOther",
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "NewCase",
+			"type": "esriFieldTypeInteger",
+			"alias": "NewCase",
+			"sqlType": "sqlTypeOther",
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "CENTER_LON",
+			"type": "esriFieldTypeDouble",
+			"alias": "CENTER_LON",
+			"sqlType": "sqlTypeOther",
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "CENTER_LAT",
+			"type": "esriFieldTypeDouble",
+			"alias": "CENTER_LAT",
+			"sqlType": "sqlTypeOther",
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "ADM0_VIZ_NAME",
+			"type": "esriFieldTypeString",
+			"alias": "ADM0_VIZ_NAME",
+			"sqlType": "sqlTypeOther",
+			"length": 255,
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "GUID",
+			"type": "esriFieldTypeGUID",
+			"alias": "GUID",
+			"sqlType": "sqlTypeOther",
+			"length": 38,
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "Short_Name_ZH",
+			"type": "esriFieldTypeString",
+			"alias": "Short_Name_ZH",
+			"sqlType": "sqlTypeOther",
+			"length": 255,
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "Short_Name_FR",
+			"type": "esriFieldTypeString",
+			"alias": "Short_Name_FR",
+			"sqlType": "sqlTypeOther",
+			"length": 255,
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "Short_Name_ES",
+			"type": "esriFieldTypeString",
+			"alias": "Short_Name_ES",
+			"sqlType": "sqlTypeOther",
+			"length": 255,
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "Short_Name_RU",
+			"type": "esriFieldTypeString",
+			"alias": "Short_Name_RU",
+			"sqlType": "sqlTypeOther",
+			"length": 255,
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "Short_Name_AR",
+			"type": "esriFieldTypeString",
+			"alias": "Short_Name_AR",
+			"sqlType": "sqlTypeOther",
+			"length": 255,
+			"domain": null,
+			"defaultValue": null
+		},
+		{
+			"name": "GlobalID",
+			"type": "esriFieldTypeGlobalID",
+			"alias": "GlobalID",
+			"sqlType": "sqlTypeOther",
+			"length": 38,
+			"domain": null,
+			"defaultValue": null
+		}
+	],
+	"features": [
+		{
+			"attributes": {
+				"OBJECTID": 1229,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1579910400000,
+				"cum_conf": 3,
+				"NewCase": 3,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "d3fa2afa-7a05-419e-9b4d-d5b403fe5601"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1230,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1579996800000,
+				"cum_conf": 3,
+				"NewCase": 0,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "2bda21b2-b2f1-4c73-9cdb-62795c505682"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1231,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1580083200000,
+				"cum_conf": 3,
+				"NewCase": 0,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "5ca8d35b-f523-4258-89fa-0cb5b91cd70d"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1232,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1580169600000,
+				"cum_conf": 3,
+				"NewCase": 0,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "8e2f7f11-cde2-45db-98f2-123d6ee360f1"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1233,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1580256000000,
+				"cum_conf": 4,
+				"NewCase": 1,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "8a4bf1aa-0dca-4841-a5cd-76c1bf06646d"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1234,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1580342400000,
+				"cum_conf": 5,
+				"NewCase": 1,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "86e594e7-7882-4d2e-a551-2a9403a64329"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1235,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1580428800000,
+				"cum_conf": 6,
+				"NewCase": 1,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "c4c46433-a6b0-40d9-8623-b48f35aa1363"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1236,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1580515200000,
+				"cum_conf": 6,
+				"NewCase": 0,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "629aa97f-b2df-4aba-8205-cc2927d0d049"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1237,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1580601600000,
+				"cum_conf": 6,
+				"NewCase": 0,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "0309b2b7-caad-4dca-98c7-e8fa8f16d14d"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1238,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1580688000000,
+				"cum_conf": 6,
+				"NewCase": 0,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "ffdca9cc-7750-42b4-bba0-5dfe4716fdd0"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1239,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1580774400000,
+				"cum_conf": 6,
+				"NewCase": 0,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "feaebdc8-20fc-4062-b653-15a5ab56d616"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1240,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1580860800000,
+				"cum_conf": 6,
+				"NewCase": 0,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "09c99387-e1fd-4cbe-89cb-09f563e09832"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1241,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1580947200000,
+				"cum_conf": 6,
+				"NewCase": 0,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "04d16bc0-f440-4eb6-9834-5bdb74b0dde0"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1242,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1581033600000,
+				"cum_conf": 6,
+				"NewCase": 0,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "49be30da-f080-474a-b88b-f0b553b97e71"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1243,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1581120000000,
+				"cum_conf": 11,
+				"NewCase": 5,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "d589357a-f25e-4a91-8f05-c59f23bf6e3a"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1244,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1581206400000,
+				"cum_conf": 11,
+				"NewCase": 0,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "b70fc925-f8fe-4f2b-92b8-2f696370ced7"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1245,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1581292800000,
+				"cum_conf": 11,
+				"NewCase": 0,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "0865c500-8ffd-49c2-b372-104217c3fcae"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1246,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1581379200000,
+				"cum_conf": 11,
+				"NewCase": 0,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "83bd51dc-ddca-44cb-ba39-e7fdc5b97d53"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1247,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1581465600000,
+				"cum_conf": 11,
+				"NewCase": 0,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "38475e73-8110-4b56-b72f-1e06c752ff6b"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1248,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1581552000000,
+				"cum_conf": 11,
+				"NewCase": 0,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "90af8261-782c-496d-8b74-6db21a846682"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1249,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1581638400000,
+				"cum_conf": 11,
+				"NewCase": 0,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "dab5e643-8b46-4923-b2ec-19244217d830"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1250,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1581724800000,
+				"cum_conf": 11,
+				"NewCase": 0,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "b8ee292f-2dce-4ef4-87ce-d6aee7fdafb4"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1251,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1581811200000,
+				"cum_conf": 12,
+				"NewCase": 1,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "aa5e0b18-56e2-44b8-91b8-066d6fb38c8c"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1252,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1581897600000,
+				"cum_conf": 12,
+				"NewCase": 0,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "75ab6306-38ba-424d-be7e-0e32f1aff4ad"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1253,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1581984000000,
+				"cum_conf": 12,
+				"NewCase": 0,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "20a53ed0-e102-4955-9e8d-4abba3a5315f"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1254,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1582070400000,
+				"cum_conf": 12,
+				"NewCase": 0,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "946c99f0-0a04-44e6-bd77-3c51884a7b77"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1255,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1582156800000,
+				"cum_conf": 12,
+				"NewCase": 0,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "ad71699c-701e-4e84-b8ff-84301463682b"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1256,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1582243200000,
+				"cum_conf": 12,
+				"NewCase": 0,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "44e60b23-7117-4de3-8ce7-4f1b0b65fe83"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1257,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1582329600000,
+				"cum_conf": 12,
+				"NewCase": 0,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "4719e37b-46fe-4f88-8bcc-2024e368809d"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1258,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1582416000000,
+				"cum_conf": 12,
+				"NewCase": 0,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "ef362bbc-e883-4959-9cec-566ded712f0a"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1259,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1582502400000,
+				"cum_conf": 12,
+				"NewCase": 0,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "7605965f-f59e-4123-9934-d78ccb07f9eb"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1260,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1582588800000,
+				"cum_conf": 12,
+				"NewCase": 0,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "db807f02-f861-49ad-9242-b4a6948d7961"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1261,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1582675200000,
+				"cum_conf": 17,
+				"NewCase": 5,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "3cf497a9-5ee3-42ec-bc90-c71d112ef851"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1262,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1582761600000,
+				"cum_conf": 18,
+				"NewCase": 1,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "fcd95356-9cc2-4d58-a2f5-550d5a19f141"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1263,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1582848000000,
+				"cum_conf": 38,
+				"NewCase": 20,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "6af9f801-fde8-4fea-ab01-547f77e6a62f"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1264,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1582934400000,
+				"cum_conf": 57,
+				"NewCase": 19,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "3d9b02aa-fb4f-42cf-bda8-ff45232048f3"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1265,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1583020800000,
+				"cum_conf": 100,
+				"NewCase": 43,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "2cd23d97-2a78-453f-903d-1fc32be073f3"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1266,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1583107200000,
+				"cum_conf": 100,
+				"NewCase": 0,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "0fafb4ed-408a-4bc8-88e0-d2edd236fb58"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1267,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1583193600000,
+				"cum_conf": 191,
+				"NewCase": 91,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "2d18698e-6fba-4bb8-8a5c-ac437d6ab682"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1268,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1583280000000,
+				"cum_conf": 212,
+				"NewCase": 21,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "9739fc0c-6833-4147-b15a-9287db73eca4"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1269,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1583366400000,
+				"cum_conf": 282,
+				"NewCase": 70,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "c9888b85-310d-4f90-8643-5929e854b69f"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1270,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1583452800000,
+				"cum_conf": 420,
+				"NewCase": 138,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "9f0a3047-b182-49f8-9f3f-18066cf30216"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1271,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1583539200000,
+				"cum_conf": 613,
+				"NewCase": 193,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "ff9a6017-4dae-4c81-8ad6-548306f4f7c5"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1272,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1583625600000,
+				"cum_conf": 939,
+				"NewCase": 326,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "0720e2b9-a000-43b2-872f-579e4bfd0a30"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1273,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1583712000000,
+				"cum_conf": 1116,
+				"NewCase": 177,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "9a91794f-9391-4b4f-ad0e-d9363c95b252"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1274,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1583798400000,
+				"cum_conf": 1402,
+				"NewCase": 286,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "06210cb7-ed2d-4e01-b135-25937492be62"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1275,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1583884800000,
+				"cum_conf": 1774,
+				"NewCase": 372,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "0bb99abd-6431-4329-97f8-b12f5aadea2f"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1276,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1583971200000,
+				"cum_conf": 2281,
+				"NewCase": 507,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "c5214421-414d-49f6-90cc-758ea1ca07f6"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1277,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1584057600000,
+				"cum_conf": 2860,
+				"NewCase": 579,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "60d70b4d-3415-45e8-a21b-d59b96f15764"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1278,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1584144000000,
+				"cum_conf": 3640,
+				"NewCase": 780,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "e566ee6b-1264-4fb5-8e6c-a5b964348100"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1279,
+				"ADM0_NAME": "FRANCE",
+				"DateOfDataEntry": 1584230400000,
+				"cum_conf": 4469,
+				"NewCase": 829,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "52fd3721-2d33-4950-a2f4-ea7aeccf2459"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1280,
+				"ADM0_NAME": "France",
+				"DateOfDataEntry": 1584316800000,
+				"cum_conf": 5380,
+				"NewCase": 911,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "af5dea2f-bed3-4e43-a6b1-40849fb6ba7c"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1281,
+				"ADM0_NAME": "France",
+				"DateOfDataEntry": 1584403200000,
+				"cum_conf": 6573,
+				"NewCase": 1193,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "ba79f8a6-e110-4000-b49b-27247805a2db"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1282,
+				"ADM0_NAME": "France",
+				"DateOfDataEntry": 1584489600000,
+				"cum_conf": 7652,
+				"NewCase": 1079,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "5a8ed07d-6de6-4a0d-b010-3535edcca8b7"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1283,
+				"ADM0_NAME": "France",
+				"DateOfDataEntry": 1584576000000,
+				"cum_conf": 9043,
+				"NewCase": 1391,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "7177b97f-d1d0-44aa-902a-30ad443b2eaa"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1284,
+				"ADM0_NAME": "France",
+				"DateOfDataEntry": 1584662400000,
+				"cum_conf": 10877,
+				"NewCase": 1834,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "0cf10e75-46e4-42a2-a3b6-91d7a3176240"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1285,
+				"ADM0_NAME": "France",
+				"DateOfDataEntry": 1584748800000,
+				"cum_conf": 12475,
+				"NewCase": 1598,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "66453016-485f-4681-b2d7-5ea0e9d95e39"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1286,
+				"ADM0_NAME": "France",
+				"DateOfDataEntry": 1584835200000,
+				"cum_conf": 14296,
+				"NewCase": 1821,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "0faa5757-791f-4e81-a356-7b3c1d854750"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1287,
+				"ADM0_NAME": "France",
+				"DateOfDataEntry": 1584921600000,
+				"cum_conf": 15821,
+				"NewCase": 1525,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "ab6c6781-595d-4cdd-8336-ad3d783bd836"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		},
+		{
+			"attributes": {
+				"OBJECTID": 1288,
+				"ADM0_NAME": "France",
+				"DateOfDataEntry": 1585008000000,
+				"cum_conf": 19615,
+				"NewCase": 3794,
+				"CENTER_LON": 2.55042646,
+				"CENTER_LAT": 46.56487403,
+				"ADM0_VIZ_NAME": "France",
+				"GUID": "4c308a42-4e33-4d8f-a408-0746862545c7",
+				"Short_Name_ZH": "法国",
+				"Short_Name_FR": "France",
+				"Short_Name_ES": "Francia",
+				"Short_Name_RU": "Франция",
+				"Short_Name_AR": "فرنسا",
+				"GlobalID": "23c60029-d2a2-4ef0-a6f7-edcd9be9ddbf"
+			},
+			"geometry": {
+				"x": 2.5504264560000252,
+				"y": 46.564874025000051
+			}
+		}
+	]
+}

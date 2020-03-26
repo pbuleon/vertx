@@ -222,9 +222,9 @@ public class OmsAccess {
 			float lon = attributes.getFloat("CENTER_LON");
 			float lat = attributes.getFloat("CENTER_LAT");
 			long Time = attributes.getLong("DateOfDataEntry");
-			res.append(Time).append('/').append(lat).append(':').append(lon).append("/ oms.cum_conf{country=")
+			res.append(Time*1000).append('/').append(lat).append(':').append(lon).append("/ oms.cum_conf{country=")
 					.append(countryName).append("} ").append(cum_conf).append("\n");
-			res.append(Time).append('/').append(lat).append(':').append(lon).append("/ oms.NewCase{country=")
+			res.append(Time*1000).append('/').append(lat).append(':').append(lon).append("/ oms.NewCase{country=")
 					.append(countryName).append("} ").append(NewCase).append("\n");
 		});
 		return res.toString();
@@ -321,11 +321,11 @@ public class OmsAccess {
 	public Future<Void> resetWarp(Vertx vertx) {
 		Promise<Void> promise = Promise.promise();
 		
-		Future<Void> fut = Warp10Client.getInstance().DeleteAllGtsOfClass(vertx, "cum_conf");
-		System.out.println("DeleteAllGtsOfClass requested for : " + "cum_conf");
+		Future<Void> fut = Warp10Client.getInstance().DeleteAllGtsOfClass(vertx, "oms.cum_conf");
+		System.out.println("DeleteAllGtsOfClass requested for : " + "oms.cum_conf");
 		fut = fut.compose((ok)-> {
-			System.out.println("DeleteAllGtsOfClass requested for : " + "NewCase");
-			return Warp10Client.getInstance().DeleteAllGtsOfClass(vertx, "NewCase");
+			System.out.println("DeleteAllGtsOfClass requested for : " + "oms.NewCase");
+			return Warp10Client.getInstance().DeleteAllGtsOfClass(vertx, "oms.NewCase");
 		});
 		fut.setHandler(ar2 -> {
 			promise.complete();
