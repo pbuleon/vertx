@@ -1,22 +1,14 @@
 package com.example.starter;
 
-import com.example.starter.warp10.Warp10Client;
-import com.example.starter.warp10.Warp10Token;
-import com.jayway.restassured.RestAssured;
-
 import io.vertx.core.DeploymentOptions;
 import io.vertx.core.Future;
 import io.vertx.core.Vertx;
-import io.vertx.core.buffer.Buffer;
 import io.vertx.core.json.JsonObject;
-import io.vertx.ext.web.client.HttpResponse;
-import io.vertx.ext.web.client.WebClient;
 import io.vertx.junit5.VertxExtension;
 import io.vertx.junit5.VertxTestContext;
+import oms.MainVerticle;
+import oms.OmsAccess;
 
-import static org.junit.jupiter.api.Assertions.assertNotEquals;
-
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -73,7 +65,6 @@ public class TestOmsAccess {
 				}
 			});
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 			testContext.failNow(e);
 			testContext.completeNow();

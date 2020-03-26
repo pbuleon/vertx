@@ -1,4 +1,4 @@
-package com.example.starter;
+package oms;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -14,8 +14,6 @@ import java.util.TreeSet;
 
 import org.apache.commons.io.IOUtils;
 
-import com.example.starter.warp10.Warp10Client;
-
 import io.vertx.core.Future;
 import io.vertx.core.Promise;
 import io.vertx.core.Vertx;
@@ -24,6 +22,7 @@ import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;
 import io.vertx.ext.web.client.HttpResponse;
 import io.vertx.ext.web.client.WebClient;
+import oms.warp10.Warp10Client;
 
 public class OmsAccess {
 
