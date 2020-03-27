@@ -16,3 +16,20 @@
 // les entry du 1 janvier 2020 au 1 Janvier 2021
 'cR_C33wtPjBGpNS8b9QxAJnvO2uTUg.QUc0Vdy6GxwHxIzaVVWAN4Qik0h9cKAbIOUo4PDIx_ppHuCmrOrBdIfH0dSJJ3Sh0xWTU6xuAq5dbCl8vUrv1cG.r332aNAfzKJo6WysbIKF' 'token' STORE
 [ $token 'oms.NewCase' { 'country' 'France' } '2021-01-01T00:00:00Z' '2020-01-01T00:00:00Z' ] FETCH
+
+
+// mes deplacement du 15 au 31 mars 2020
+'Q4xWsxoCCTcV2ekVgP6DX4rjqSuGRA6rpP5L5RGNrS_rSdWLrEKjOl4zEMyjkU1K46zUxL0fP5LeBwaaUQiK_QfwU7ExyFyZ547vzT8IwCxxJXd2THDqHvYfYgiNnOQFFmZgT1P7PTSghXANTjcfJfRpiomUgJWPR_5.UbQXL3o' 'token' STORE
+[ $token 'google_loc' {} '2020-03-31T00:00:00Z' '2020-03-15T00:00:00Z' ] FETCH
+
+
+// extract les 10 plus grande valeur du fetch
+'cR_C33wtPjBGpNS8b9QxAJnvO2uTUg.QUc0Vdy6GxwHxIzaVVWAN4Qik0h9cKAbIOUo4PDIx_ppHuCmrOrBdIfH0dSJJ3Sh0xWTU6xuAq5dbCl8vUrv1cG.r332aNAfzKJo6WysbIKF' 'token' STORE
+[ $token 'oms.NewCase' { 'country' 'France' } '2021-01-01T00:00:00Z' '365' ] FETCH
+[          //put a mark on the stack
+  SWAP     //here is the trick ! you swap the FETCH result and put it into your new list.
+  bucketizer.max  // select the max value
+  0 // last bucket : 0 automatquement le dernier de la GTS
+  0 // span : 0 : automatiment tous le GTS
+  10 // nombre de resultat
+] BUCKETIZE

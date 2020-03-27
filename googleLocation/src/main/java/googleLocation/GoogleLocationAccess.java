@@ -59,7 +59,6 @@ public class GoogleLocationAccess {
 			int accuracy = ((JsonObject) obj).getInteger("accuracy");
 			float lon = (((JsonObject) obj).getLong("longitudeE7").floatValue()) / 10000000;
 			float lat = (((JsonObject) obj).getLong("latitudeE7").floatValue()) / 10000000;
-			System.out.println("avant timestampMs");
 			String Time = ((JsonObject) obj).getString("timestampMs");
 //			System.out
 //					.println("" + Time + "/" + lat + ":" + lon + "/ google_loc{people=" + peopleName + "} " + accuracy);
