@@ -1,14 +1,1 @@
-[
-	{
-		"READ": {
-			"ident": "997e1c44bd0a7cca",
-			"id": "tokenR",
-			"token": "cR_C33wtPjBGpNS8b9QxAJnvO2uTUg.QUc0Vdy6GxwHxIzaVVWAN4Qik0h9cKAbIOUo4PDIx_ppHuCmrOrBdIfH0dSJJ3Sh0xWTU6xuAq5dbCl8vUrv1cG.r332aNAfzKJo6WysbIKF"
-		},
-		"WRITE": {
-			"ident": "4915992d2e79dfe9",
-			"id": "tokenW",
-			"token": "iAIdWhOgsxRDTa2ahek9.zkHzhzI8PRSuQ8OmhbtTL50DjDrNFucPoqy62noC9IvADlGSOlBXZkRKxqm2NeTkZ0xJLLkXt8z_yrocXDySx7"
-		}
-	}
-]
+[{"READ":{"ident":"c0441dda8e5c02fd","id":"tokenR","token":"Q4xWsxoCCTcV2ekVgP6DX4rjqSuGRA6rpP5L5RGNrS_rSdWLrEKjOl4zEMyjkU1K46zUxL0fP5LeBwaaUQiK_QfwU7ExyFyZ547vzT8IwCxxJXd2THDqHvYfYgiNnOQFFmZgT1P7PTSghXANTjcfJfRpiomUgJWPR_5.UbQXL3o"},"WRITE":{"ident":"5f8e0cb2388df547","id":"tokenW","token":"Abw5fiRx0.lD7z47QvmCQDntVtK37oijE5_xqWvOyYRDp5VKhiuaKUbJ3l6f73H0JgRcLdYHlh7.X2JMqaTRkL2Ux6wn90x37ANmeHbNYK3sd2p8pHMXLF"}}]

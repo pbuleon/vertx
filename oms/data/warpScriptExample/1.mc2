@@ -33,3 +33,29 @@
   0 // span : 0 : automatiment tous le GTS
   10 // nombre de resultat
 ] BUCKETIZE
+
+
+'iAIdWhOgsxRDTa2ahek9.zkHzhzI8PRSuQ8OmhbtTL50DjDrNFucPoqy62noC9IvADlGSOlBXZkRKxqm2NeTkZ0xJLLkXt8z_yrocXDySx7' 'Wt' STORE //store write token
+'cR_C33wtPjBGpNS8b9QxAJnvO2uTUg.QUc0Vdy6GxwHxIzaVVWAN4Qik0h9cKAbIOUo4PDIx_ppHuCmrOrBdIfH0dSJJ3Sh0xWTU6xuAq5dbCl8vUrv1cG.r332aNAfzKJo6WysbIKF' 'Rt' STORE //store read token
+$Wt 'testGTS{}' '0' '2021-01-01T00:00:00Z' 10 DELETE  // delete des gts du timestamp 0 a 1 janvier 2021, nombre de gts max : 10
+
+
+
+[ $Rt 'Zmagneticflux' { 'id' '~sensor2[1-2]' } NOW MINLONG 1 + ] FETCH // fetch toles entry jusqu'a maintenant : MINLONG 1 + est la valeur la plus negative possible
+
+
+// fetch au format "map"
+{ 
+    'token' $Rt
+    'class' 'Zmagneticflux'
+    'labels' { 'id' 'sensor8' }
+    'start' '1970-01-01T00:00:00Z' //ignored because count is defined
+    'end'   '1970-01-01T00:55:00Z' //there is no point between 50 and 55 minutes
+    'count' 10  // if you comment this line, start will be considered
+    'type' 'LONG' //force a type conversion
+} FETCH
+
+
+
+// liste les Gts de la database
+[ $LoggerR '~.*'  {}  ] FIND 
