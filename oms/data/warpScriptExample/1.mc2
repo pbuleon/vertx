@@ -59,3 +59,103 @@ $Wt 'testGTS{}' '0' '2021-01-01T00:00:00Z' 10 DELETE  // delete des gts du times
 
 // liste les Gts de la database
 [ $LoggerR '~.*'  {}  ] FIND 
+
+// recupere les gts avec toutes les donnees
+[ 
+  $RToken
+  'gov.noaa.storm.wind'
+  {}
+  MAXLONG
+  MINLONG
+]
+FETCH
+'fetch_wind' STORE
+
+
+
+
+
+
+
+'Abw5fiRx0.lD7z47QvmCQDntVtK37oijE5_xqWvOyYRDp5VKhiuaKUbJ3l6f73H0JgRcLdYHlh7.X2JMqaTRkL2Ux6wn90x37ANmeHbNYK3sd2p8pHMXLF' 'WToken' STORE //store write token
+'Q4xWsxoCCTcV2ekVgP6DX4rjqSuGRA6rpP5L5RGNrS_rSdWLrEKjOl4zEMyjkU1K46zUxL0fP5LeBwaaUQiK_QfwU7ExyFyZ547vzT8IwCxxJXd2THDqHvYfYgiNnOQFFmZgT1P7PTSghXANTjcfJfRpiomUgJWPR_5.UbQXL3o' 'RToken' STORE //store read token
+
+LINEON
+
+1.0 'nombreInitial' STORE
+7 'tempsIncubation' STORE
+15 'dureeMaladie' STORE
+6 'delaiContagion' STORE
+16 'dureeContagion' STORE
+0.9 'tauxContagion' STORE
+60000000.0 'population' STORE
+0.0 'cumulMalade' STORE
+200 'finsimulation' STORE
+
+NEWGTS 'covid.simu.cumulCas' RENAME 'gtsCumulCas' STORE
+NEWGTS 'covid.simu.contaminant' RENAME 'gtscontaminants' STORE
+NEWGTS 'debug' RENAME 'gtsdebug' STORE
+
+NEWGTS 'covid.simu.nouveauCas' RENAME
+
+// init le nombre de malade initial
+0 NaN NaN NaN $nombreInitial ADDVALUE
+$gtsCumulCas 0 NaN NaN NaN $nombreInitial ADDVALUE DROP // maj de la gts de cumul
+$gtscontaminants 0 NaN NaN NaN 0.0 ADDVALUE DROP // maj de la gts de contaminants
+$cumulMalade $nombreInitial + 'cumulMalade' STORE 
+
+
+
+// pa de contamination durant la duree d'incubation
+1 $delaiContagion 1 -  <% d NaN NaN NaN 0 ADDVALUE %> FOR
+$gtsCumulCas 1 $delaiContagion 1 -  <% d NaN NaN NaN 1.0 ADDVALUE %> FOR DROP // maj de la gts de cumul
+$gtscontaminants 1 $delaiContagion 1 -  <% d NaN NaN NaN 0.0 ADDVALUE %> FOR DROP // maj de la gts de contaminants
+
+
+// boucle sur le reste de l'anne
+$delaiContagion $finsimulation
+<%
+  'index' STORE // Sauve l'index courant
+  $index $delaiContagion - // calcule le dernier index pour le calcule des contaminant
+  'contaminantDernierIndex' STORE // sauv dans la valeur contaminantDernierIndex
+  $contaminantDernierIndex $dureeContagion - 0 MAX // calcul du premier index des comtaminant
+  'contaminantPremierIndex' STORE // sauv dans la valeur contaminantPremierIndex
+
+  DUP // duplique la gts pour en garder une apres le ATINDEX
+  0 'cumulContaminants' STORE
+  $contaminantPremierIndex $contaminantDernierIndex
+  <%
+    ATINDEX 4 GET $cumulContaminants + // ajoute au cumul des contaminants 
+    'cumulContaminants' STORE // sauve le cumul des contaminant
+    DUP // duplique la gts pour en garder une apres le ATINDEX
+  %>
+  FOR
+  DROP // retire la gts en trop
+
+  
+  $cumulContaminants  $tauxContagion * $dureeContagion /  // nombre de contamine si personne n'est immunisé
+  $population $cumulMalade - $population / // proportion de personne contaminable
+  * 'contamine' STORE // nombre reel de personne contaminé
+
+  <%
+    $contamine 0.5 < 
+  %>
+  <%
+    0.0 'contamine' STORE
+  %>
+  IFT
+
+  
+  $cumulMalade $contamine + 'cumulMalade' STORE // maj cumulMalade
+
+  $index d NaN NaN NaN $contamine ADDVALUE // ajoute le nombre de contamine dans la gts
+  $gtsCumulCas $index d NaN NaN NaN $cumulMalade ADDVALUE DROP // maj de la gts de cumul
+  $gtscontaminants $index d NaN NaN NaN $cumulContaminants ADDVALUE DROP // maj de la gts de cumul
+  
+
+%>
+FOR
+
+$gtsdebug
+$gtsCumulCas
+$gtscontaminants
