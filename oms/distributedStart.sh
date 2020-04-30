@@ -55,3 +55,9 @@ docker restart hbase-master
 
 # redemarrer : hbase-regionserver
 docker restart hbase-regionserver
+
+
+
+# demarre warp10-ingress
+docker run -it -v C:\cygwin64\home\buleon1\git\vertx\warp10Configs\template:/opt/warp10-2.4.0/etc/conf.d --network="docker-hbase_default" --name warp10_ingress warp10io/warp10:latest bash
+java -cp /opt/warp10-2.4.0/bin/warp10-2.4.0.jar io.warp10.WarpDist /opt/warp10/etc/conf.d/*
